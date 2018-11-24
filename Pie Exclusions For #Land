@@ -1,0 +1,12 @@
+# Remove previous HALs
+rm -rf existing hals
+
+# Set paths in DT to make workable
+https://github.com/SaksHam1714/device_xiaomi_land_pie/commit/6118ad6b7fff14707a6fda310b3711944847a63b
+
+# Cloning @Sairam1411's HALs
+git clone https://github.com/sairam1411/hardware_qcom_audio.git -b pie-caf-msm8937 hardware/qcom/audio-caf-msm8937
+git clone https://github.com/andreisaniuk/hardware_qcom_display.git -b pie-nos-8937 hardware/qcom/display-caf-msm8937
+git clone https://github.com/andreisaniuk/hardware_qcom_media.git -b pie-nos-8937 hardware/qcom/media-caf-msm8937
+
+# ENJOY

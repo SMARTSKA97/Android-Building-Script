@@ -1,1 +1,3 @@
 # Android-Building-Script
+
+This is the script for making ROM compilation...

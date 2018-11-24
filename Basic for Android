@@ -31,6 +31,10 @@ ccache -M 50GB
 3. use ccache
 4. limit ccache size
 
+# Ubuntu Upgrade
+
+sudo apt-get upgrade -y 
+
 # Git Config
 
 git config --global user.name "SMARTSKA97" && git config --global "karmakarsubhrajit680@gmail.com"

@@ -1,0 +1,47 @@
+# first and most important stuff for setting up environment
+
+sudo apt-get update -y 
+
+# Compiling tools:
+
+sudo apt-get install bc bison build-essential curl flex g++-multilib gcc-multilib git gnupg gperf imagemagick lib32ncurses5-dev lib32readline6-dev lib32z1-dev libesd0-dev liblz4-tool libncurses5-dev libsdl1.2-dev libwxgtk3.0-dev libxml2 libxml2-utils lzop pngcrush schedtool squashfs-tools xsltproc zip zlib1g-dev ccache -y
+
+# Java:
+
+sudo apt-get install openjdk-8-jdk -y
+
+# create bin folder & set path & Download repo tool & Make Repo executable
+
+mkdir ~/.bin && PATH=~/.bin:$PATH && curl https://storage.googleapis.com/git-repo-downloads/repo > ~/.bin/repo && chmod a+x ~/.bin/repo
+
+# copy these in ~/.bashrc
+
+nano ~/.bashrc
+
+export PATH=~/.bin:$PATH
+export KBUILD_BUILD_USER=smart
+export KBUILD_BUILD_HOST=ska97
+export USE_CCACHE=1
+ccache -M 50GB
+
+# wtf they do
+
+1. change your build user
+2. change your build host
+3. use ccache
+4. limit ccache size
+
+# Git Config
+
+git config --global user.name "SMARTSKA97" && git config --global "karmakarsubhrajit680@gmail.com"
+
+# install gdrive to upload directly to your google drive account
+
+cd ~ 
+wget https://docs.google.com/uc?id=0B3X9GlR6EmbnWksyTEtCM0VfaFE&export=download
+mv uc\?id\=0B3X9GlR6EmbnWksyTEtCM0VfaFE gdrive
+chmod +x gdrive
+sudo install gdrive /usr/local/bin/gdrive
+gdrive list
+
+read and follow terminal steps

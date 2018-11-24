@@ -37,7 +37,8 @@ sudo apt-get upgrade -y
 
 # Git Config
 
-git config --global user.name "SMARTSKA97" && git config --global "karmakarsubhrajit680@gmail.com"
+git config --global user.name "SMARTSKA97"
+git config --global user.mail "karmakarsubhrajit680@gmail.com"
 
 # install gdrive to upload directly to your google drive account
 

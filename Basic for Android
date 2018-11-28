@@ -28,10 +28,6 @@ ccache -M 50GB
 
 source ~/.bashrc
 
-# Repo Sync
-
-repo sync -c -j48 --force-sync --no-clone-bundle --no-tags
-
 # wtf they do
 
 1. change your build user
@@ -47,6 +43,10 @@ sudo apt-get upgrade -y
 
 git config --global user.name "SMARTSKA97"
 git config --global user.mail "karmakarsubhrajit680@gmail.com"
+
+# Repo Sync
+
+repo sync -c -j48 --force-sync --no-clone-bundle --no-tags
 
 # install gdrive to upload directly to your google drive account
 

@@ -1,7 +1,7 @@
 # Remove previous HALs
 rm -rf existing hals
-rm -rf h*/q*/media-caf h*/q*/audio-caf h*/q*/display-caf
-rm -rf h*/q*/media h*/q*/audio h*/q*/display
+rm -rf h*/q*/media-caf* h*/q*/audio-caf* h*/q*/display-caf*
+rm -rf h*/q*/media* h*/q*/audio* h*/q*/display*
 
 # Set paths in DT to make workable
 https://github.com/SaksHam1714/device_xiaomi_land_pie/commit/6118ad6b7fff14707a6fda310b3711944847a63b

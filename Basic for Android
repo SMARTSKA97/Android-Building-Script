@@ -24,6 +24,14 @@ export KBUILD_BUILD_HOST=ska97
 export USE_CCACHE=1
 ccache -M 50GB
 
+# adding bashrc to source
+
+source ~/.bashrc
+
+# Repo Sync
+
+repo sync -c -j48 --force-sync --no-clone-bundle --no-tags
+
 # wtf they do
 
 1. change your build user

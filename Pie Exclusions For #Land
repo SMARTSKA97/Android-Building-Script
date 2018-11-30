@@ -7,8 +7,8 @@ rm -rf h*/q*/media* h*/q*/audio* h*/q*/display*
 https://github.com/SaksHam1714/device_xiaomi_land_pie/commit/6118ad6b7fff14707a6fda310b3711944847a63b
 
 # Cloning HALs by SAIRAM with updated streams
-git clone https://github.com/SMARTSKA97/hardware_qcom_audio.git hardware/qcom/audio-caf-msm8937
-git clone https://github.com/SMARTSKA97/hardware_qcom_display.git hardware/qcom/display-caf-msm8937
-git clone https://github.com/SMARTSKA97/hardware_qcom_media.git hardware/qcom/media-caf-msm8937
+git clone https://github.com/SMARTSKA97/audio-caf hardware/qcom/audio-caf-msm8937
+git clone https://github.com/SMARTSKA97/display-caf hardware/qcom/display-caf-msm8937
+git clone https://github.com/SMARTSKA97/media-caf hardware/qcom/media-caf-msm8937
 
 # ENJOY
